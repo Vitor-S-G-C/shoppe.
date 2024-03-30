@@ -1,0 +1,105 @@
+body {
+    padding: 40px;
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.navbar .logo {
+    width: 150px;
+}
+
+.navbar .logo img {
+    width: 100%;
+}
+
+.navbar .dire ul {
+    list-style: none;
+    display: flex;
+
+}
+
+.navbar .dire ul li {
+    margin-left: 35px;
+}
+
+.navbar .dire ul li a {
+    text-decoration: none;
+    color: gray;
+    font-size: 18px;
+
+}
+
+.navbar .dire ul li a:hover {
+    color: #b94951;
+}
+
+
+.pag {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.pag .txt {
+    text-align: left;
+    width: 50%;
+}
+
+.pag .txt h1 {
+    font-size: 55px;
+    font-weight: 600;
+
+}
+
+.pag .txt p {
+    font-size: 17px;
+    color: gray;
+    margin: 20px 0;
+}
+
+.pag .txt h1 span {
+    font-weight: 400;
+
+}
+
+.pag .photo {
+    width: 50%;
+}
+
+
+.pag .photo img {
+    width: 520px;
+}
+
+.pag .txt button {
+    padding: 15px 30px;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    background-color: #E8505B;
+    color: white;
+    cursor: pointer;
+    transition: 0.2;
+
+}
+
+.pag .txt button:hover {
+    background-color: #ee444c;
+}
